@@ -17,8 +17,12 @@ const AboutMe = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut maxime necessitatibus optio ipsum vel harum incidunt quia enim quas accusantium!</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ratione exercitationem veniam aspernatur optio a, omnis voluptatibus repellendus dolore harum ducimus incidunt deleniti sed numquam.</p>
+                <p>
+                I’m a motivated frontend developer with a solid grounding in Python, JavaScript, and ReactJS, currently honing my skills at Dr. N.G.P. Institute of Technology. I specialize in building full-featured, responsive applications with a seamless user experience.                
+                </p>
+                <p>
+                With a keen interest in problem-solving and an aptitude for learning new technologies, My experience extends to Power BI, which I use to interpret data insights, supporting data-driven decision-making. I continuously strive to expand my skill set, keeping up with the latest industry standards and development practices, particularly in JavaScript frameworks and optimization techniques.
+                </p>
 
             </div>
             <div className="about-skills">
