@@ -3,6 +3,8 @@ import './Footer.css'
 import ariLogo from '../../assets/ari_logo.png'
 
 const Footer = () => {
+  const date=new Date();
+
   return (
     <div className='footer'>
       <div className="footer-top">
@@ -14,7 +16,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bootom-left">&copy; 2024 Arivuselvam. All rights reserved.</p>
+        <p className="footer-bootom-left">&copy; {date.getFullYear()} Arivuselvam. All rights reserved.</p>
         <div className='footer-bottom-right'>
             <p>Term of Services</p>
             <p>Privacy policy</p>
