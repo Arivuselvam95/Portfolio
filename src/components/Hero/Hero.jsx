@@ -9,7 +9,7 @@ const Hero = () => {
         <img src={User_img} alt="profile-img" />
         <h1><span>I'm Arivuselvam,</span> frontend developer.</h1>
         <p>
-        "Passionate developer skilled in Python, JavaScript, ReactJS, and problem-solving, with hands-on experience in Django, data analytics, and Power BI. Currently studying at Dr. N.G.P. Institute of Technology, I’m dedicated to continuously expand my expertise in modern development technologies."
+        "Passionate developer skilled in Python, JavaScript, ReactJS, and problem-solving, with hands-on experience in data analytics, and Power BI. Currently studying at Dr. N.G.P. Institute of Technology, I’m dedicated to continuously expand my expertise in modern development technologies."
         </p>
         <div className="hero-action">
             <AnchorLink className='anchor-link' offset={50} href='#contact'>
