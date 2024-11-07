@@ -28,19 +28,19 @@ const AboutMe = () => {
             <div className="about-skills">
                 <div className="about-skill">
                     <p>HTML & CSS</p>
-                    <hr style={{width:"50%"}}/>
+                    <hr style={{width:"27vw"}}/>
                 </div>
                 <div className="about-skill">
                     <p>React JS</p>
-                    <hr style={{width:"50%"}}/>
+                    <hr style={{width:"25vw"}}/>
                 </div>
                 <div className="about-skill">
                     <p>Javascript</p>
-                    <hr style={{width:"60%"}}/>
+                    <hr style={{width:"30vw"}}/>
                 </div>
                 <div className="about-skill">
                     <p>Python</p>
-                    <hr style={{width:"70%"}}/>
+                    <hr style={{width:"34vw"}}/>
                 </div>
             </div>
         </div>
