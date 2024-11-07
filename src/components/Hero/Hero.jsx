@@ -2,8 +2,16 @@ import React from 'react'
 import './Hero.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import User_img from '../../assets/user-img.avif'
+import res from '../../assets/myResume.pdf'
+
 
 const Hero = () => {
+
+  const handleButtonClick = () => {
+    
+    window.open(res, '_blank');
+  };
+
   return (
     <div id='home' className='hero'>
         <img src={User_img} alt="profile-img" />
@@ -15,7 +23,7 @@ const Hero = () => {
             <AnchorLink className='anchor-link' offset={50} href='#contact'>
                 <div className="hero-connect">Connect with me</div>
             </AnchorLink>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-resume" onClick={handleButtonClick}>My Resume</div>
         </div>
     </div>
   )
