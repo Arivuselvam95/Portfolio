@@ -67,6 +67,117 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+.modal-backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
+    
+}
+.modal-content{
+    border: 1px solid #b415ff;
+    background-color: rgba(22, 22, 22, 0.79);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 90%;
+    width: '600px';
+    max-height: 90vh;
+    overflow: auto;
+    position: relative;
+    animation: modalSlideIn 0.3s ease-out;
+}
+.modal-content-close{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: white;
+
+}
+.model-title{
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    background: linear-gradient(264deg,#df8908 75%,#b415ff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.pro-model-header{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.pro-model-link{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.pro-model-link a{
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(264deg,#df8908 -5.08%,#b415ff 100%);
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    gap: 0.5rem;
+
+}
+.pro-model-link a img{
+    width: 16px;
+    height: 16px;
+
+}
+.pro-info{
+    color: #ffffff;
+    line-height: 1.6;
+    max-width: 50vw;
+    
+}
+
+@keyframes modalSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .modal-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 4px;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+  }
+
 @media(max-width:768px){
     .projects{
         align-items: start;
@@ -98,5 +209,23 @@
     }
     .projects-container{
         grid-template-columns: 1fr;
+    }
+    .model-title{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .pro-model-header{
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+    }
+    .pro-info{
+        font-size: 0.9rem;
+        text-align: justify;
+        padding: 0px 12px;
+    }
+    .modal-content-close{
+        right: 0.5rem;
+        top: 0.2rem;
     }
 }

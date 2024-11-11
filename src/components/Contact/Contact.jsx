@@ -48,23 +48,29 @@ const Contact = () => {
                     <img src={call_icon} alt="" />
                     <p>8867205078</p>
                 </div>
-                <div className="contact-detail">
+                <div className="contact-detail" onClick={()=> {window.open(
+                                                                    'https://www.linkedin.com/in/arivuselvam-s-478765280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+                                                                    '_blank' 
+                                                                  );}}>
                     <img src={linkedin} alt="" />
-                    <p>arivuselvam-s-478765280</p>
+                    <p>arivuselvam-s</p>
                 </div>
-                <div className="contact-detail">
+                <div className="contact-detail" onClick={()=> {window.open(
+                                                                    'https://github.com/Arivuselvam95/',
+                                                                    '_blank' 
+                                                                  );}}>
                     <img src={github} alt="" />
                     <p>Arivuselvam95</p>
                 </div>
             </div>
         </div>
         <form onSubmit={handleSubmit} className="contact-right">
-            <label htmlFor="">Your Name</label>
-            <input type="text" placeholder='Enter your name' name='name'/>
-            <label htmlFor="">Your Email</label>
-            <input type="email" placeholder='Enter your email' name='email' />
-            <label htmlFor="">Write your message here</label>
-            <textarea name="message" rows="8" placeholder='Enter your message'></textarea>
+            <label htmlFor="name">Your Name</label>
+            <input type="text" id='name' placeholder='Enter your name' name='name'/>
+            <label htmlFor="e-mail">Your Email</label>
+            <input type="email" id='e-mail' placeholder='Enter your email' name='email' />
+            <label htmlFor="message">Write your message here</label>
+            <textarea name="message" id='message' rows="8" placeholder='Enter your message'></textarea>
             <button type='submit' className='contact-submit'>Submit now</button>
         </form>
       </div>
