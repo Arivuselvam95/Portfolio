@@ -19,6 +19,13 @@ const Project_Data = [
         p_desc:"Web development is the process of building, programming...",
         p_link:"https://github.com/Arivuselvam95/Gemini.git",
         p_info:"Built a custom chatbot interface using JavaScript and ReactJS, enabling seamless user interactions and responsive design with Gemini-ai API. Technologies used: HTML, CSS, Javascript, React JS",
+    },
+    {
+        p_no:"04",
+        p_name:"Dealer App",
+        p_desc:"Digital transformation for dealer to rise issues in web portal...",
+        p_link:"https://github.com/Arivuselvam95/Dealer-App.git",
+        p_info:" User Management System designed to securely handle user registrations, including generating random passwords, hashing them with bcrypt, and storing them in a MongoDB database. It also integrates an email service to send login credentials to users and ensures robust security for managing user accounts.",
     }
    
 ]
