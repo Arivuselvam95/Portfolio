@@ -31,7 +31,7 @@ const AboutMe = () => {
                     <hr style={{width:"27vw"}}/>
                 </div>
                 <div className="about-skill">
-                    <p>React JS</p>
+                    <p>MERN stack</p>
                     <hr style={{width:"25vw"}}/>
                 </div>
                 <div className="about-skill">
