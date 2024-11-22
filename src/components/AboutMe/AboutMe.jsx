@@ -18,7 +18,7 @@ const AboutMe = () => {
         <div className="about-right">
             <div className="about-para">
                 <p>
-                I’m a motivated frontend developer with a solid grounding in Python, JavaScript, and ReactJS, currently honing my skills at Dr. N.G.P. Institute of Technology. I specialize in building full-featured, responsive applications with a seamless user experience.                
+                I’m a motivated frontend developer with a solid grounding in Python, JavaScript, and MERN stack, currently honing my skills at Dr. N.G.P. Institute of Technology. I specialize in building full-featured, responsive applications with a seamless user experience.                
                 </p>
                 <p>
                 With a keen interest in problem-solving and an aptitude for learning new technologies, My experience extends to Power BI, which I use to interpret data insights, supporting data-driven decision-making. I continuously strive to expand my skill set, keeping up with the latest industry standards and development practices, particularly in JavaScript frameworks and optimization techniques.
@@ -48,7 +48,7 @@ const AboutMe = () => {
       <div className="about-achievements">
         <AnchorLink className='anchor-link' offset={50} href='#projects'>
             <div className="about-achievement">
-                <h1>2</h1>
+                <h1>3</h1>
                 <p>Projects Worked</p>
             </div>
         </AnchorLink>
