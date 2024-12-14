@@ -13,8 +13,8 @@ const WorkExperience = () => {
       <div className="experience-container">
         {Experience_Data.map((exp, index) => (
           <div key={index}  className="experience-format"  onClick={(e) => handleProjectClick(project, e)}>
-            <h3>{exp.e_no}</h3>
-            <h2>{exp.e_name}</h2>
+           
+            <div className='e-name'>{exp.e_name}</div>
             <h2>{exp.e_company}</h2>
             <p>{exp.e_time}</p>
             <p>{exp.e_desc}</p>

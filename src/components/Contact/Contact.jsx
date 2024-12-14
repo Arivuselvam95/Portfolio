@@ -48,14 +48,14 @@ const Contact = () => {
                     <img src={call_icon} alt="" />
                     <p>8867205078</p>
                 </div>
-                <div className="contact-detail" onClick={()=> {window.open(
+                <div className="contact-detail" style={{cursor: 'pointer'}} onClick={()=> {window.open(
                                                                     'https://www.linkedin.com/in/arivuselvam-s-478765280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
                                                                     '_blank' 
                                                                   );}}>
                     <img src={linkedin} alt="" />
                     <p>arivuselvam-s</p>
                 </div>
-                <div className="contact-detail" onClick={()=> {window.open(
+                <div className="contact-detail" style={{cursor: 'pointer'}} onClick={()=> {window.open(
                                                                     'https://github.com/Arivuselvam95/',
                                                                     '_blank' 
                                                                   );}}>
