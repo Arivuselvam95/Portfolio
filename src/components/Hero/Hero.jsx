@@ -19,10 +19,10 @@ const Hero = () => {
           <span>
             <Typewriter
               options={{
-                strings: ["I'm Arivuselvam", " Full Stack Developer"],
+                strings: ["I'm Arivuselvam", "Full Stack Developer"],
                 autoStart: true,
                 loop: true,
-                delay: 75,
+                delay: 100,
                 deleteSpeed: 50,
               }}
             />
