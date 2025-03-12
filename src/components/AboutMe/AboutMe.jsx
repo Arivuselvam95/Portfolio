@@ -58,7 +58,7 @@ const AboutMe = () => {
                                                                     'https://leetcode.com/u/arivuselvam95/',
                                                                     '_blank' 
                                                                   );}}>
-            <h1>300+</h1>
+            <h1>500+</h1>
             <p>Problems in Leetcode</p>
         </div>
       </div>
