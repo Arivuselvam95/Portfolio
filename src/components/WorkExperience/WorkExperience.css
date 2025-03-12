@@ -50,7 +50,7 @@
     max-width: 380px;
 }
 .experience-format .e-name{
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 800;
     color: white;
     max-width: 380px;
@@ -96,6 +96,7 @@
     .experience-format h2{
         font-size: 28px;
     }
+    
     .experience-format p{
         font-size: 18px;
         line-height: 32px;
