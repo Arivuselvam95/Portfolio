@@ -53,7 +53,11 @@ const AboutMe = () => {
             </div>
         </AnchorLink>
         <hr />
-        <div className="about-achievement">
+        
+        <div  className="about-achievement" style={{cursor:"pointer"}} onClick={()=> {window.open(
+                                                                    'https://leetcode.com/u/arivuselvam95/',
+                                                                    '_blank' 
+                                                                  );}}>
             <h1>300+</h1>
             <p>Problems in Leetcode</p>
         </div>
